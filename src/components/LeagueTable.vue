@@ -33,7 +33,6 @@
                     {label: 'id', field: 'id'},
                     {label: 'Team', field: 'team.name', headerClass: 'class-in-header second-class'},
                     {label: 'Opposing Team', field: 'opposing_team.name', headerClass: 'class-in-header second-class'},
-                    // {label: 'Week', field: 'week', headerClass: 'class-in-header second-class'},
                     {label: 'Points', field: 'points', headerClass: 'class-in-header second-class'},
                     {label: 'Played', field: 'played', headerClass: 'class-in-header second-class'},
                     {label: 'Won', field: 'won', headerClass: 'class-in-header second-class'},
@@ -79,15 +78,7 @@
         },
         mounted() {
             this.fetchLeagueTable();
-        },
-        // watch: {
-        //     week: function (newWeek) {
-        //         if (newWeek > 3 && newWeek < 7) {
-        //             this.showPredictions();
-        //         }
-        //     }
-        // },
-
+        }
     }
 </script>
 
